@@ -12,7 +12,7 @@ int modularExponentiation(int x,int n,int m)
             r=(1LL*(r)*(x)%m)%m;
         }
         x=(1LL*(x)%m*(x)%m)%m;
-        n=n>>1;         //same as b=b/2
+        n=n>>1;         //same as b=b/2;
     }
     return r;
 }

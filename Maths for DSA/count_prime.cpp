@@ -1,4 +1,4 @@
-//Optimised
+//Optimized
 //count no. of prime nos. till n
 #include<iostream>
 #include<vector>
