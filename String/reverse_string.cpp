@@ -3,11 +3,11 @@ using namespace std;
 void reverse(char name[],int n)
 {
     string str="";
-    int s1=0;
+    int s=0;
     int e=n-1;
-    while(s1<=e)
+    while(s<=e)
     {
-        swap(name[s1++],name[e--]);
+        swap(name[s++],name[e--]);
     }
     for(int i=0;i<n;i++)
         cout<<name[i];
