@@ -1,0 +1,37 @@
+Mushrooms
+Mukesh and Suresh love pizzas. They brought a pizza and decided to divide it equally among themselves. The pizza was cut into eight slices. Mukesh is the one who will split the pizza into two equal halves, such that each of them gets a complete "half circle" of pizza or four consecutive slices of pizza.
+Moreover, the pizza had mushrooms on it. Suresh requested Mukesh to divide in such a way that his 4 slices have maximum number of mushrooms on them.
+Can you help Mukesh in finding 4 consecutive slices with maximum mushrooms. You just have to tell the maximum mushroom count that Suresh can get.
+Input Format:
+Each of the eight lines of input contains the integer Si. These numbers are, respectively, the amount of mushrooms on pizza slices, where the slices are given in clockwise order.
+Constraints:
+2 ≤ |Si| ≤ 50,  i=1,2,3,.....,8
+Time limit : 1 sec
+Output Format:
+The first and only line of output must contain the required number.
+Sample Input 1:
+5
+2
+1
+4
+5
+1
+2
+3
+Sample Output 1:
+12
+Explanation for Sample Output 1:
+The four consecutive slices that would be taken to get the maximum number of mushrooms are the first four slices listed, i.e. 5, 2, 1, and 4. So the total number of mushrooms are 5 + 2 + 1 + 4 = 12
+Sample Input 2:
+2
+6
+5
+3
+3
+7
+2
+6
+Sample Output 2:
+19
+Explanation for Sample Output 2:
+The four consecutive slices that would be taken to get the maximum number of mushrooms are the first three and the last slice listed, i.e. 2, 6, 5, and 6. So the total number of mushrooms are 2 + 6 + 5 + 6 = 19

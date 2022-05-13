@@ -1,0 +1,20 @@
+Sebi, the great mathematician
+Sebi likes solving mathematical problems a lot. He spends a lot of time in getting expertise in mathematics. One day his friend gave a problem. In order to prove it expertise, he need to solve this problem.
+Sebi is given two integers A and B. He has to calculate the sum of distances between each pair of numbers belonging in the interval [A, B].
+Input Format:
+The first and only line of input contains integers A, B.  
+Constraints:
+1 ≤ A ≤ B ≤ 10^50000
+Time limit = 1 sec
+Output Format:
+The first and only line of output must contain the required number from the text. Given that the number could be extremely large, output answer modulo 1000000007.  
+Sample Input 1:
+288 291 
+Sample Output 1:
+76
+Sample Input 2:
+1 5
+Sample Output 2:
+40
+
+The other distances are, respectively, (289, 290) = 10, (289, 291) = 9, (290, 291) = 1. Each of them counts twice, which is in total 2 * (1 + 9 + 8 + 10 + 9 +1) = 76.
