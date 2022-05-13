@@ -9,7 +9,7 @@ Constraints:
 Time limit : 1 sec
 Output Format:
 The first and only line of output must contain the required number.
-Sample Input 1:
+Sample Input 1:-
 5
 2
 1

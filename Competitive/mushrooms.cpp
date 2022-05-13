@@ -3,7 +3,7 @@
 using namespace std;
 int main() {
 
-	// Write your code here
+	// Write your code her
     int A[8];
     int i,j,k,p,max=0,s=0;
     for(i=0;i<8;i++)

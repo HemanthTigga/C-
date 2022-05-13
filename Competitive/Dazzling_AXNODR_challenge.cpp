@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	// your code goes here
+	// your code goes her
 	int T,i;
 	long long N;
 	cin>>T;

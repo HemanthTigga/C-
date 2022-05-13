@@ -25,5 +25,5 @@ The word gets altered in the following order: abcdef, afbecd, adfcbe, aedbfc, ac
 Sample Input 2:
 11
 srama
-Sample Output 2:
+Sample Output 2:-
 sarma

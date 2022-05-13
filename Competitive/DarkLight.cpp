@@ -11,17 +11,6 @@ int main() {
 	    long long n,k;
 	    cin>>n>>k;
 
-	    /*if(n==0)
-	    {
-	        if(k==1)
-	        cout<<"on"<<endl;
-	        else if(k==0)
-	        cout<<"off"<<endl;
-	    }
-	    else if(k==1)
-	    {
-	        cout<<"Ambiguous"<<endl;
-	    }*/
 	    if(k==0)
 	    {
 	        if(n%4==0)
