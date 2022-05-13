@@ -9,7 +9,7 @@ Constraints:
 1 ≤ N ≤ 1000000
 1 ≤ K ≤ 1000000
 1 ≤ fi ≤ N
-Time limit = 1 sec
+Time limit = 1 s
 Output Format:
 The first and only line must contain the number of possible ways to color Slavko's book.
 Sample Input 1:
