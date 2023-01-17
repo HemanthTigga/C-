@@ -8,7 +8,7 @@ void nextSmallerElement(vector<int> &arr, int n)
     stack<int> s;
     s.push(-1);
     vector<int> ans(n);
-    for(int i=n-1;i>=0;i--)
+    for(int i=n-1;i>=0;i--)         //flow change for previous smaller element
     {
         int curr = arr[i];
         while(s.top()>=curr)
