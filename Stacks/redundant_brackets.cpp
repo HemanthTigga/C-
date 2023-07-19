@@ -14,7 +14,7 @@ bool findRedundantBrackets(string &s)
         }
         else
         {
-            //ya toh ')' pr lowercase letter
+            //ya toh ')' or lowercase letter
             if(ch == ')')
             {
                 bool isRedundant = true;
