@@ -43,7 +43,6 @@ public:
             rear ++;
         }
     }
-
     int dequeue()
     {
         if(qfront == rear)
@@ -55,6 +54,7 @@ public:
             int ans = arr[qfront];
             arr[qfront] = -1;
             qfront++;
+            //imp part
             if(qfront == rear)
             {
                 qfront = 0;
